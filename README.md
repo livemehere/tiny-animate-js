@@ -20,6 +20,10 @@
 
 ### `animate.[something]()`
 
+> `from`, `to`, `fromTo`
+
+- runs animation immediately
+
 ```js
 animate.from(
     "h1",
@@ -35,6 +39,8 @@ animate.from(
 ```
 
 ### `animate.timeline()`
+
+- runs animation sequentially. controls with `offset` property
 
 ```js
 const tl = animate.timeline();
